@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer components{
+
+
+  .gallery-wrapper{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+  }
+  .sortable-ghost{
+    @apply relative border-2 border-gray-300 after:bg-white after:z-10 after:absolute after:inset-0 shadow rounded-xl overflow-hidden
+  }
+
+  .sortable-drag{
+    @apply shadow-lg
+  }
+
+
+}
